@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Share+Tech&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background: rgb(39, 39, 39, 0.4);
+}
+.nav{
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background: linear-gradient(rgba(39, 39, 39, 0.6, transparent));
+    z-index: 100;
+}
+.nav-logo p{
+    font-size: 25px;
+    font-weight: 600;
+    color: blue;
+}
+.nav-menu ul{
+    display: flex;
+}
+.nav-menu ul li{
+    list-style-type: none;
+}
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: purple;
+    padding-bottom: 15px;
+    margin: 0 25px;
+}
+.link:hover, .active{
+    border-bottom: 2px solid blue;
+}
+.nav-button .button{
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.button:hover{
+    background: rgba(255, 255, 255, 0.3);
+}
+#registerButton{
+    margin-left: 15px;
+}
+.button.white-button{
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.button.button.white-button:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+.nav-menu-button{
+    display: none;
+}
+.form-box{
+    position: relative;
+    display: flex;
+    height: 420px;
+    align-items: center;
+    width: 512px;
+    overflow: hidden;
+    z-index: 2;
+    justify-content: center;
+}
+.register-container{
+    width: 500px;
+    flex-direction: column;
+    display: flex;
+    transition: .5s ease-in-out;
+}
+.top span{
+    font-size: small;
+    padding: 10px 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.top span a{
+    font-weight: 500;
+    color: #fff;
+    margin-left: 5px;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0 30px 0;
+}
+.two-forms{
+    display: flex;
+    gap: 10px;
+}
+.input-field{
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    padding: 0 10px 0 45px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    transition: 0.2s ease;
+}
+.input-field:hover,.input-field:focus{
+    background: rgba(255, 255, 255, 0.25);
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.input-box i{
+    position: relative;
+    top: -35px;
+    left: 17;
+    color: #fff;
+}
+.submit{
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.submit:hover{
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: small;
+    margin-top: 10px;
+}
+.two-col.one{
+    display: flex;
+    gap: 5px;
+}
+.two-label a{
+    text-decoration: none;
+    color: #fff;
+}
+.two-label a:hover{
+    text-decoration: underline;
+}
