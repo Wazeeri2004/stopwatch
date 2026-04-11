@@ -1,31 +1,31 @@
-let a = document.getElementById("loginButton");
-let b = document.getElementById("registerButton");
-let x = document.getElementById("login");
-let y = document.getElementById("register");
+const loginForm = document.getElementById("login");
+const registerForm = document.getElementById("register");
+const loginButton = document.getElementById("loginButton");
+const registerButton = document.getElementById("registerButton");
 
 function login(){
-    x.style.left = "4px";
-    y.style.right = "-510px";
-    a.className += "whitebutton";
-    b.className = "button";
-    x.style.opacity = 1;
-    y.style.opacity = 0;
+    loginForm.style.left = "4px";
+    registerForm.style.right = "-510px";
+    loginButton.className = "button";
+    registerButton.className += "button";
+    loginForm.style.opacity = 1;
+    registerForm.style.opacity = 0;
 }
 
 function register(){
-    x.style. left = "-510px";
-    y.style.right = "5px";
-    a.className = "button";
-    b.className += "whitebutton";
-    x.style.opacity = 0;
-    y.style.opacity = 1;
+    loginForm.style. left = "-510px";
+    registerForm.style.right = "5px";
+    loginButton.className = "button";
+    registerButton.className += "whitebutton";
+    loginForm.style.opacity = 0;
+    registerForm.style.opacity = 1;
 }
 
 function myMenuFunction(){
-    let i = document.getElementById("navMenu")
-    if(i.className === "nav-Menu") {
-        i.className += " responsive"
+    const navMenu = document.getElementById("navMenu")
+    if(navMenu.className === "nav-Menu") {
+        navMenu.className += " responsive"
     } else{
-        i.className = "nav-Menu"
+        navMenu.className = "nav-Menu"
     }
 }

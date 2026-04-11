@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="recipe-finder-container">
+        <h1>Recipe Finder</h1>
+        <form id="search-form" class="search-box">
+            <input type="text" id="search-input" placeholder="Search by name (eg. 'carrot')"
+            />
+            <button type="submit" id="search-button">Search</button>
+        </form>
+        <div class="random-button-container">
+            <button id="random-button" class="random-button">
+                Get Random Recipe
+            </button>
+        </div>
+        <div class="message " id="message-area">Search for a recipe or get random one!</div>
+        <div class="results-grid" id="results-grid">
+            <!--<div class="recipe-item">
+                <img src="https://www.themealdb.com/images/media/meals/lrfdwz1764438393.jpg" alt="cassava pizza">
+                <h3>Cassava Pizza</h3>
+            </div>-->
+        </div>
+    </div>
+    <div class="modal-container hidden " id="recipe-modal">
+        <div class="modal-content">
+            <button id="modal-close-btn" class="modal-close-btn">+</button>
+            <div id="recipe-details-content">
+                <!----Details will be loaded here>
+
+                <h2>Cassava Pizza</h2>
+                <img src="https://www.themealdb.com/images/media/meals/lrfdwz1764438393.jpg" alt="Cassava Pizza">
+
+                <h3>Category:Dessert</h3>
+                <h3>Area:Nigeria</h3>
+                <h3>Ingredients</h3>
+
+                <ul>
+                    <li>450g Tomato Sauce</li>
+                    <li>255g Chorizo</li>
+                    <li>55g Paprika</li>
+                </ul>
+                <h3>Instructions</h3>
+                <p>
+                    Preheat the oven to 200ºC.
+Cut the bacon or chorizo into medium pieces and the paprika into strips.
+Spread a little tomato sauce and mozzarella cheese on each portion of cassava.
+Add the bacon or chorizo, corn, turkey ham, some olives and paprika.
+Bake for 7 to 10 minutes.
+Remove from the oven and enjoy.
+                </p>
+
+            </div> --> 
+        </div>
+    </div>
+ <script src="script.js"></script>
+</body>
+</html>
