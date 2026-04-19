@@ -133,7 +133,7 @@ try {
  if (data.meals && data.meals.length > 0){
     displayRecipeDetails(data.meals[0]);
  } else{
-    modalContent.innerHTML = <p class="message error">Could not load recipe details.</p>
+    modalContent.innerHTML = `<p class="message error">Could not load recipe details.</p>`;
  }
 } catch (error) {
 modalContent.innerHTML = '<p class="message error">Failed to check recipe details. Check your connection or try again.</p>'   
